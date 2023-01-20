@@ -36,10 +36,10 @@ services:
     networks:
     - springappnetwork
     
-  volumes:
-   mongodb:
+volumes:
+  mongodb:
     external: true
     
-  networks:
-   springappnetwork:
+networks:
+  springappnetwork:
     external: true

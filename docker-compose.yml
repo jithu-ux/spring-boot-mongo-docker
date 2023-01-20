@@ -40,7 +40,6 @@ volumes:
   mongodb:
     external: true
     
-networks:
-  default:
-    external:
-      name: customoverlay
+ networks:
+  springappnetwork:
+    external: true
